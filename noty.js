@@ -34,11 +34,4 @@ class Noty {
   }
 }
 
-const noty_singleton = new Noty();
-
-export default {
-  on: noty_singleton.on,
-  emit: noty_singleton.emit,
-  off: noty_singleton.off,
-  removeListener: noty_singleton.removeListener
-};
+export default new Noty();

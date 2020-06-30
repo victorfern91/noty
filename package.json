@@ -1,0 +1,20 @@
+{
+  "name": "@victorfern91/noty",
+  "version": "1.0.0",
+  "description": "Noty - a global event emitter based in javascript",
+  "main": "dist/noty.js",
+  "repository": "git@github.com:victorfern91/noty.git",
+  "author": "Victor Fernandes <victorfern91@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "jest -c config/jest/jest.config.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "babel-jest": "^26.1.0",
+    "jest": "^26.1.0"
+  }
+}
